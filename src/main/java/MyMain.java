@@ -35,8 +35,8 @@ public class MyMain {
             
             double total = output[i];
             double percent = total / num * 100;
-            
-            System.out.println("% of rolls where sum == 2:" + percent);
+            int counter = i+2;
+            System.out.println("% of rolls where sum ==" + counter + " :" + percent);
         }
         sc.close();
     }
